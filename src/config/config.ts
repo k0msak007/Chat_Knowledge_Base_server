@@ -24,4 +24,4 @@ export const config = {
   server: {
     port: env.PORT,
   },
-} as const;
+} as const
