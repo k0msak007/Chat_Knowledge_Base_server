@@ -11,6 +11,12 @@
         "format": "prettier . --write",
         "prepare": "husky install"
     },
+    "lint-staged": {
+        "*.{js,jsx,ts,tsx}": [
+            "eslint --fix",
+            "prettier --write"
+        ]
+    },
     "keywords": [],
     "author": "",
     "license": "ISC",
